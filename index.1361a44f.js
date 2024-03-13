@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){document.getElementById("contactForm").addEventListener("submit",function(e){e.preventDefault(),console.log({name:document.getElementById("name").value,email:document.getElementById("email").value,message:document.getElementById("message").value}),alert("Ваше повідомлення було успішно надіслане!")})});
+//# sourceMappingURL=index.1361a44f.js.map
